@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683207447421,
+  "lastUpdate": 1683210428986,
   "repoUrl": "https://github.com/zhangwenlong8911/icu",
   "entries": {
     "Benchmark": [
@@ -58,6 +58,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetEncoderICU",
             "value": 3.0658513576735293,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "zhangwenlong@loongson.cn",
+            "name": "Wenlong Zhang",
+            "username": "zhangwenlong8911"
+          },
+          "committer": {
+            "email": "zhangwenlong@loongson.cn",
+            "name": "Wenlong Zhang",
+            "username": "zhangwenlong8911"
+          },
+          "distinct": true,
+          "id": "63b5c19ebdf359c0ed59dae4eb9a03638003659e",
+          "message": "fix build error for loongarch64\n\ncurl -sL -o config.guess 'https://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD'\ncurl -sL -o config.sub 'https://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD'\n\nSigned-off-by: Wenlong Zhang <zhangwenlong@loongson.cn>",
+          "timestamp": "2023-05-04T20:31:27+08:00",
+          "tree_id": "6450a07640b4cfb607bbcb67a26360b508ca8881",
+          "url": "https://github.com/zhangwenlong8911/icu/commit/63b5c19ebdf359c0ed59dae4eb9a03638003659e"
+        },
+        "date": 1683210427340,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetEncoderICU",
+            "value": 4.8156397733955725,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
